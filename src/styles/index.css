@@ -1,12 +1,52 @@
 
-/* 
+.reloj {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: fit-content;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  
+  .hora,.minuto,.segundo {
+    display: flex;
+    flex-direction: row;
+  }
 
-    You can write your own styles here...
+  .hora-unidad,.hora-decena,.minuto-unidad,.minuto-decena,.segundo-unidad,.segundo-decena {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0 3px;
+    padding: 10px;
+    background-color: #333 ;
+    border-radius: 10px;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+  }
+  
+  .separador-hora,.separador-minuto {
+    font-size: 84px;
+    font-weight: bold;
+    margin: 0 10px;
+    color: white;
+    padding-bottom: 20px;
+  }
 
-*/
+  .icono-reloj {
+    color: white;
+    font-size: 84px;
+    margin: 0 10px;
+  }
+
+.controlbotones {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
